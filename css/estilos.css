@@ -6,10 +6,10 @@
     padding:0;
 }
 
-body{
-    background-color:rgb(249, 249, 252);
-}
 
+head {
+    background-color: rgb(18, 72, 107);
+}
 p{
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
@@ -35,7 +35,7 @@ p{
 }
 
 section{
-    background-color: rgb(210, 204, 240);
+    background-color: rgb(120, 214, 198);
 }
 
 h1{
@@ -55,7 +55,7 @@ ul li{
 }
 
 header{
-    background-color: rgb(57, 57, 235);
+    background-color: rgb(65, 145, 151);
     height: 65px;
 }
 
@@ -96,7 +96,9 @@ img{
 footer{
     margin-top: 60px;
     padding: 10px;
-    background-color: rgb(156, 156, 243);
+    background-color:rgb(245, 252, 205);
 }
 
-
+body{
+    background-color: rgb(120, 214, 198);
+}
