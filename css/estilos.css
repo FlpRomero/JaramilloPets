@@ -1,104 +1,28 @@
- 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
-
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-
-head {
+.fondoMenu {
     background-color: rgb(18, 72, 107);
 }
-p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    font-size: 15px;
-    text-align: justify;
-    line-height: 40px;
-    letter-spacing: 10px;
-    word-spacing: 10;
-    text-transform: uppercase;
-    color: rgb(211, 38, 38);
-}
+/*emparejo por especifidad a boostrap*/
 
-.PrimerParrafo{
-    color:rgb(243, 13, 13);
-    text-transform: capitalize; 
-    font-size: 20px;
-    text-align: center;
-    background-color: rgb(237, 235, 245);
+.navbar-light .navbar-nav .nav-link{
+    color: white;
 }
-
-#color{
-    color: black;
-}
-
-section{
-    background-color: rgb(120, 214, 198);
-}
-
-h1{
-    color: rgb(3, 30, 80);
-}
-
-li{
-    list-style-type: none;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-ul li{
-    display: inline-block;
-}
-
-header{
+.navbar-light .navbar-nav .nav-link:hover {
     background-color: rgb(65, 145, 151);
-    height: 65px;
-}
-
-h1{
-    color: black;
-    padding: 30px;
-    border: 7px solid rgb(21, 34, 150) ;
-    margin: 80px 40px 80px 40px;
-}
-
-p{
-    color: black;
-    padding: 40px;
-    margin-right: 100px;
-    margin-top: 60px;
-    margin-left: 60px;
-    border: 10px solid blueviolet;
-}
-
-.border-radius{
-    border-radius: 30%;
-    color: rgb(10, 85, 60);
+    color: background-color: rgb(18, 72, 107);
+    border-radius 10px;
 }
 
 
+    .style {
+        font-family: fantasy;
+    }
 
-img{
-    margin-top: 80px;
-    margin-left: 250px;
-    border: 4px double rgb(18, 49, 105);
-    border-radius: 15%;
-}
 
-.icono{
-    border: none;
-}
-
-footer{
-    margin-top: 60px;
-    padding: 10px;
-    background-color:rgb(245, 252, 205);
-}
-
-body{
-    background-color: rgb(120, 214, 198);
-}
+    .active {
+        background-color: rgb(65, 145, 151);
+    }
