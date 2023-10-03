@@ -1,0 +1,58 @@
+/* line 1, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.fondoMenu {
+  background-color: #12486b;
+}
+
+/* line 10, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 1px;
+  text-align: justify;
+  line-height: 40px;
+  letter-spacing: 0px;
+  word-spacing: 10;
+  text-transform: uppercase;
+  color: #020202;
+}
+
+/*emparejo por especifidad a boostrap*/
+/* line 24, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+/* line 27, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #419197;
+  background-color: #12486b;
+  border-radius: 10px;
+}
+
+/* line 34, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.style {
+  font-family: fantasy;
+}
+
+/* line 39, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.active {
+  background-color: #419197;
+}
+
+/* line 43, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+footer {
+  background-color: #f5fccd;
+}
+
+/* line 47, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.navbar-nav {
+  background-color: #12486b;
+}
+
+/*# sourceMappingURL=estilos.css.map */
