@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fondoMenu {
+    background-color: rgb(18, 72, 107);
+}
+
+h1 { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 1px;
+    text-align: justify;
+    line-height: 40px;
+    letter-spacing: 0px;
+    word-spacing: 10;
+    text-transform: uppercase;
+    color: rgb(2, 2, 2);
+    
+}
+/*emparejo por especifidad a boostrap*/
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: rgb(65, 145, 151);
+    background-color: rgb(18, 72, 107);
+    border-radius: 10px;
+}
+
+
+    .style {
+        font-family: fantasy;
+    }
+
+
+    .active {
+        background-color: rgb(65, 145, 151);
+    }
+
+    footer {
+        background-color: rgb(245, 252, 205);
+    }
+
+    .navbar-nav {
+        background-color: rgb(18, 72, 107);
+    
+    }
+    
