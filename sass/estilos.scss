@@ -4,13 +4,15 @@
 }
 
 .fondoMenu {
-    background-color: rgb(18, 72, 107);
+    background-color: rgb(65, 145, 151);
 }
 
+
+
 h1 { 
-    font-family: 'Poppins', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 1px;
+    font-size: 10px;
     text-align: justify;
     line-height: 40px;
     letter-spacing: 0px;
@@ -28,11 +30,6 @@ h1 {
     background-color: rgb(65, 145, 151);
     background-color: rgb(18, 72, 107);
     border-radius: 10px;
-}
-
-
-    .style {
-        font-family: fantasy;
     }
 
 
@@ -42,10 +39,22 @@ h1 {
 
     footer {
         background-color: rgb(245, 252, 205);
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 0rem;
+        
     }
 
     .navbar-nav {
-        background-color: rgb(18, 72, 107);
+        background-color: rgb(65, 145, 151);
     
     }
-    
+
+    section{
+        align-content: center;
+        }
+
+        #titulo-principal{
+            color: red;
+            font-size: 48px;
+        }

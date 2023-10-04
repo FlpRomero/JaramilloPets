@@ -6,14 +6,14 @@
 
 /* line 6, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .fondoMenu {
-  background-color: #12486b;
+  background-color: #419197;
 }
 
-/* line 10, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 12, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 1px;
+  font-size: 10px;
   text-align: justify;
   line-height: 40px;
   letter-spacing: 0px;
@@ -23,36 +23,45 @@ h1 {
 }
 
 /*emparejo por especifidad a boostrap*/
-/* line 24, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 26, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link {
   color: white;
 }
 
-/* line 27, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 29, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link:hover {
   background-color: #419197;
   background-color: #12486b;
   border-radius: 10px;
 }
 
-/* line 34, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
-.style {
-  font-family: fantasy;
-}
-
-/* line 39, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 36, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .active {
   background-color: #419197;
 }
 
-/* line 43, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 40, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 footer {
   background-color: #f5fccd;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0rem;
 }
 
-/* line 47, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 48, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .navbar-nav {
-  background-color: #12486b;
+  background-color: #419197;
+}
+
+/* line 53, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+section {
+  align-content: center;
+}
+
+/* line 57, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+#titulo-principal {
+  color: red;
+  font-size: 48px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
