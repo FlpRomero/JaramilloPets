@@ -23,24 +23,24 @@ h1 {
 }
 
 /*emparejo por especifidad a boostrap*/
-/* line 26, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 27, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link {
   color: white;
 }
 
-/* line 29, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 31, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link:hover {
   background-color: #419197;
   background-color: #12486b;
   border-radius: 10px;
 }
 
-/* line 36, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 38, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .active {
   background-color: #419197;
 }
 
-/* line 40, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 42, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 footer {
   background-color: #f5fccd;
   display: flex;
@@ -48,20 +48,34 @@ footer {
   margin-bottom: 0rem;
 }
 
-/* line 48, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 50, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .navbar-nav {
   background-color: #419197;
 }
 
-/* line 53, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 55, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 section {
   align-content: center;
 }
 
-/* line 57, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 59, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 #titulo-principal {
   color: red;
   font-size: 48px;
+}
+
+/* line 64, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rm;
+  justify-content: center;
+}
+
+/* line 72, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.card-body {
+  height: 100;
+  flex-basis: 20rem;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -9,8 +9,8 @@
 
 
 
-h1 { 
-    font-family:Arial, Helvetica, sans-serif;
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 10px;
     text-align: justify;
@@ -19,42 +19,63 @@ h1 {
     word-spacing: 10;
     text-transform: uppercase;
     color: rgb(2, 2, 2);
-    
+
 }
+
 /*emparejo por especifidad a boostrap*/
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
     color: white;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
     background-color: rgb(65, 145, 151);
     background-color: rgb(18, 72, 107);
     border-radius: 10px;
-    }
+}
 
 
-    .active {
-        background-color: rgb(65, 145, 151);
-    }
+.active {
+    background-color: rgb(65, 145, 151);
+}
 
-    footer {
-        background-color: rgb(245, 252, 205);
-        display: flex;
-        justify-content: flex-start;
-        margin-bottom: 0rem;
-        
-    }
+footer {
+    background-color: rgb(245, 252, 205);
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0rem;
 
-    .navbar-nav {
-        background-color: rgb(65, 145, 151);
+}
+
+.navbar-nav {
+    background-color: rgb(65, 145, 151);
+
+}
+
+section {
+    align-content: center;
+}
+
+#titulo-principal {
+    color: red;
+    font-size: 48px;
+}
+
+body{
+    padding: 10px;
     
-    }
+}
 
-    section{
-        align-content: center;
-        }
+/*.container{
 
-        #titulo-principal{
-            color: red;
-            font-size: 48px;
-        }
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rm;
+    justify-content: center;
+}
+
+.card-body{
+    height: 100;
+    flex-basis: 20rem;
+}
+
