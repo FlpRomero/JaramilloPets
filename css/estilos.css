@@ -1,15 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;500&family=Dancing+Script:wght@500;600;700&family=Permanent+Marker&family=Poppins:ital@0;1&display=swap");
 /* line 1, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 6, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 9, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .fondoMenu {
   background-color: #419197;
 }
 
-/* line 12, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 15, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -23,24 +24,24 @@ h1 {
 }
 
 /*emparejo por especifidad a boostrap*/
-/* line 27, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 30, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link {
   color: white;
 }
 
-/* line 31, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 34, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link:hover {
   background-color: #419197;
   background-color: #12486b;
   border-radius: 10px;
 }
 
-/* line 38, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 41, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .active {
   background-color: #419197;
 }
 
-/* line 42, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 45, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 footer {
   background-color: #f5fccd;
   display: flex;
@@ -48,34 +49,46 @@ footer {
   margin-bottom: 0rem;
 }
 
-/* line 50, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 53, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .navbar-nav {
   background-color: #419197;
 }
 
-/* line 55, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 58, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 section {
   align-content: center;
 }
 
-/* line 59, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 62, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 #titulo-principal {
-  color: red;
+  color: black;
   font-size: 48px;
 }
 
-/* line 64, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rm;
-  justify-content: center;
+/* line 67, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+body {
+  padding: 10px;
 }
 
 /* line 72, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
-.card-body {
-  height: 100;
-  flex-basis: 20rem;
+.container img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 78, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.container {
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+}
+
+/* line 84, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+#encabezado {
+  font-family: 'Dancing Script', cursive;
+  color: #12486b;
+  font-size: 90px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
