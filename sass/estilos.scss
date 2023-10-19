@@ -13,6 +13,8 @@
 
 
 h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 10px;
@@ -25,7 +27,6 @@ h1 {
 
 }
 
-/*emparejo por especifidad a boostrap*/
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
@@ -70,8 +71,8 @@ body {
 
 
 .container img {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
 }
 
@@ -90,45 +91,58 @@ body {
 }
 
 .card {
+    display: flex;
     align-content: space-between;
+    gap: 30px;
+    border-radius: 30px;
+    border: none;
+
 }
 
-.parent {
+
+
+.imagen{
+    width: 100%;
+}
+
+.imagen img{
+    width: 100%;
+}
+.galeria{
+    width: 100%;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    align-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: .5rem;
+    row-gap: .5rem;
+    
+}
+@media (min-width: 100px){
+    .galeria{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (min-width:520px){
+    .galeria{
+        grid-template-columns: repeat(2, 1fr) ;
+    }
 }
 
-.div1 {
-    grid-area: 1 / 7 / 5 / 9;
+@media (min-width:720px){
+    .galeria{
+        grid-template-columns: repeat(3, 1fr) ;
+    }
 }
 
-.div2 {
-    grid-area: 5 / 7 / 7 / 9;
+@media (min-width:1024px){
+    .galeria{
+        grid-template-columns: repeat(4, 1fr) ;
+    }
 }
 
-.div3 {
-    grid-area: 4 / 1 / 7 / 3;
-}
 
-.div4 {
-    grid-area: 1 / 1 / 4 / 4;
-}
 
-.div5 {
-    grid-area: 3 / 4 / 7 / 7;
-}
 
-.div6 {
-    grid-area: 1 / 4 / 3 / 7;
-}
-
-.div7 {
-    grid-area: 4 / 3 / 7 / 4;
-}
 
 .imgalimento {
     display: flex;
