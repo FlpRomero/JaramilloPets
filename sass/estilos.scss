@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border-radius: 10px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;500&family=Dancing+Script:wght@500;600;700&family=Permanent+Marker&family=Poppins:ital@0;1&display=swap');
@@ -79,7 +80,7 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    height: 20vh;
+    height: 10vh;
 }
 
 #encabezado {
@@ -101,48 +102,92 @@ body {
 
 
 
-.imagen{
+.imagen {
     width: 100%;
 }
 
-.imagen img{
+.imagen img {
     width: 100%;
 }
-.galeria{
+
+.galeria {
     width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: .5rem;
     row-gap: .5rem;
-    
+
 }
-@media (min-width: 100px){
-    .galeria{
+
+@media (min-width: 100px) {
+    .galeria {
         grid-template-columns: repeat(1, 1fr);
     }
 }
-@media (min-width:520px){
-    .galeria{
-        grid-template-columns: repeat(2, 1fr) ;
+
+@media (min-width:520px) {
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (min-width:720px){
-    .galeria{
-        grid-template-columns: repeat(3, 1fr) ;
+@media (min-width:720px) {
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media (min-width:1024px){
-    .galeria{
-        grid-template-columns: repeat(4, 1fr) ;
+@media (min-width:1024px) {
+    .galeria {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
+.descripcion{
+    margin-top: 55px;
+    margin-bottom: 1rem;
+}
 
 
+.taste {
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(135deg, );
+    color: rgb(65, 145, 151);
+    color: rgb(40, 95, 99);
+    border-radius: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 
+}
+
+.Nutra {
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(135deg, );
+    color: rgb(65, 145, 151);
+    color: rgb(40, 95, 99);
+    border-radius: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.diamond {
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(135deg, );
+    color: rgb(65, 145, 151);
+    color: rgb(40, 95, 99);
+    border-radius: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
 
 .imgalimento {
     display: flex;
