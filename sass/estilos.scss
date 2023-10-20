@@ -13,6 +13,7 @@
 
 
 
+
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -28,6 +29,19 @@ h1 {
 
 }
 
+h2 {
+    font-size: calc(1.325rem + .9vw);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: oblique;
+
+}
+
+.row {
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
@@ -91,7 +105,7 @@ body {
 
 }
 
-#textdown{
+#textdown {
     font-family: 'Dancing Script', cursive;
     color: rgb(18, 72, 107);
     font-size: 60px;
@@ -225,7 +239,7 @@ body {
 
 }
 
-.container-form a{
+.container-form a {
     font-size: 17px;
     display: inline-block;
     text-decoration: none;
@@ -235,12 +249,13 @@ body {
     font-weight: 700;
 }
 
-.container-form a i{
+.container-form a i {
     color: rgb(65, 145, 151);
-margin-right: 10px;
+    margin-right: 10px;
 }
 
-.container-form form .campo, textarea{
+.container-form form .campo,
+textarea {
     width: 100%;
     padding: 15px 10px;
     font-size: 15px;
@@ -250,14 +265,14 @@ margin-right: 10px;
     outline: 0px;
 }
 
-.container-form form textarea{
+.container-form form textarea {
     max-width: 530px;
     min-width: 530px;
     min-height: 140px;
     max-height: 150px;
 }
 
-.container-form .btn-enviar{
+.container-form .btn-enviar {
     padding: 15px;
     font-size: 16px;
     border: none;
@@ -269,3 +284,42 @@ margin-right: 10px;
     transition: all 300ms ease;
 }
 
+
+.img-fluid {
+    animation: scale-up-hor-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes scale-up-hor-center {
+    0% {
+        transform: scaleX(0.4);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+
+.alimento-img {
+    &:hover {
+        animation: scale-up-hor-center 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+}
+
+@keyframes scale-up-hor-center {
+    0% {
+        transform: scaleX(0.4);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    vertical-align: baseline;
+    margin-left: 40px;
+}
