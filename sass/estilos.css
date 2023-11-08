@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;500&family=Dancing+Script:wght@500;600;700&family=Permanent+Marker&family=Poppins:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.fondoMenu {
+  background-color: rgb(65, 145, 151);
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 10px;
+  text-align: justify;
+  line-height: 40px;
+  letter-spacing: 0px;
+  word-spacing: 10;
+  text-transform: uppercase;
+  color: rgb(2, 2, 2);
+}
+
+h2 {
+  font-size: calc(1.325rem + 0.9vw);
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-style: oblique;
+}
+
+.row {
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: rgb(65, 145, 151);
+  background-color: rgb(18, 72, 107);
+  border-radius: 10px;
+}
+
+.active {
+  background-color: rgb(65, 145, 151);
+}
+
+footer {
+  background-color: rgb(245, 252, 205);
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0rem;
+}
+
+.navbar-nav {
+  background-color: rgb(65, 145, 151);
+}
+
+section {
+  align-content: center;
+}
+
+#titulo-principal {
+  color: black;
+  font-size: 48px;
+}
+
+body {
+  padding: 10px;
+}
+@keyframes circle-in-hesitate {
+  0% {
+    -webkit-clip-path: circle(0%);
+            clip-path: circle(0%);
+  }
+  40% {
+    -webkit-clip-path: circle(40%);
+            clip-path: circle(40%);
+  }
+  100% {
+    -webkit-clip-path: circle(125%);
+            clip-path: circle(125%);
+  }
+}
+body [transition-style="in:circle:hesitate"] {
+  animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) circle-in-hesitate both;
+}
+
+.container img {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+}
+
+#encabezado {
+  font-family: "Dancing Script", cursive;
+  color: rgb(18, 72, 107);
+  font-size: 60px;
+  text-align: center;
+}
+
+#textdown {
+  font-family: "Dancing Script", cursive;
+  color: rgb(18, 72, 107);
+  font-size: 60px;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  align-content: space-between;
+  gap: 30px;
+  border-radius: 30px;
+  border: none;
+}
+
+.imagen {
+  width: 100%;
+}
+
+.imagen img {
+  width: 100%;
+}
+
+.galeria {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  row-gap: 0.5rem;
+}
+
+@media (min-width: 100px) {
+  .galeria {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 520px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 720px) {
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .galeria {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.descripcion {
+  margin-top: 55px;
+  margin-bottom: 1rem;
+}
+
+.taste {
+  border-style: solid;
+  border-width: 3px;
+  -o-border-image: linear-gradient(135deg);
+     border-image: linear-gradient(135deg);
+  color: rgb(65, 145, 151);
+  color: rgb(40, 95, 99);
+  border-radius: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.Nutra {
+  border-style: solid;
+  border-width: 3px;
+  -o-border-image: linear-gradient(135deg);
+     border-image: linear-gradient(135deg);
+  color: rgb(65, 145, 151);
+  color: rgb(40, 95, 99);
+  border-radius: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.diamond {
+  border-style: solid;
+  border-width: 3px;
+  -o-border-image: linear-gradient(135deg);
+     border-image: linear-gradient(135deg);
+  color: rgb(65, 145, 151);
+  color: rgb(40, 95, 99);
+  border-radius: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.imgalimento {
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container-form {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 90px;
+}
+
+.container-form h2 {
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+.container-form p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.container-form a {
+  font-size: 17px;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 700;
+}
+
+.container-form a i {
+  color: rgb(65, 145, 151);
+  margin-right: 10px;
+}
+
+.container-form form .campo,
+textarea {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 15px;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px;
+}
+
+.container-form form textarea {
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px;
+}
+
+.container-form .btn-enviar {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background: rgb(65, 145, 151);
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.img-fluid {
+  animation: scale-up-hor-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes scale-up-hor-center {
+  0% {
+    transform: scaleX(0.4);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+.alimento-img:hover {
+  animation: scale-up-hor-center 4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes scale-up-hor-center {
+  0% {
+    transform: scaleX(0.4);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  vertical-align: baseline;
+  margin-left: 40px;
+}
+
+@media (min-width: 100px) {
+  .producto {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 520px) {
+  .producto {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 720px) {
+  .producto {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .producto {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}/*# sourceMappingURL=estilos.css.map */

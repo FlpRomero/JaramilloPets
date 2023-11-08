@@ -3,13 +3,11 @@
 * {
   margin: 0;
   padding: 0;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
 
 /* line 10, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .fondoMenu {
-  background-color: #419197;
-}
+  background-color: #419197; }
 
 /* line 17, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 h1 {
@@ -23,8 +21,7 @@ h1 {
   letter-spacing: 0px;
   word-spacing: 10;
   text-transform: uppercase;
-  color: #020202;
-}
+  color: #020202; }
 
 /* line 32, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 h2 {
@@ -32,154 +29,161 @@ h2 {
   margin-top: 40px;
   margin-bottom: 30px;
   text-align: center;
-  font-style: oblique;
-}
+  font-style: oblique; }
 
 /* line 41, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .row {
   justify-content: space-evenly;
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 /* line 46, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link {
-  color: white;
-}
+  color: white; }
 
 /* line 50, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link:hover {
   background-color: #419197;
   background-color: #12486b;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
 
 /* line 57, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .active {
-  background-color: #419197;
-}
+  background-color: #419197; }
 
 /* line 61, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 footer {
   background-color: #f5fccd;
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 0rem;
-}
+  margin-bottom: 0rem; }
 
 /* line 69, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .navbar-nav {
-  background-color: #419197;
-}
+  background-color: #419197; }
 
 /* line 74, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 section {
-  align-content: center;
-}
+  align-content: center; }
 
 /* line 78, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 #titulo-principal {
   color: black;
-  font-size: 48px;
-}
+  font-size: 48px; }
 
 /* line 83, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 body {
-  padding: 10px;
-}
+  padding: 10px; }
 
-/* line 88, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+@keyframes circle-in-hesitate {
+  0% {
+    clip-path: circle(0%); }
+  40% {
+    clip-path: circle(40%); }
+  100% {
+    clip-path: circle(125%); } }
+  /* line 100, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  body [transition-style="in:circle:hesitate"] {
+    animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) circle-in-hesitate both; }
+
+/* line 106, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container img {
   margin-top: 0px;
-  margin-bottom: 0px;
-}
+  margin-bottom: 0px; }
 
-/* line 94, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 112, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container {
   display: flex;
   justify-content: center;
-  height: 10vh;
-}
+  height: 10vh; }
 
-/* line 100, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 118, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 #encabezado {
   font-family: 'Dancing Script', cursive;
   color: #12486b;
   font-size: 60px;
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 108, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 129, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 #textdown {
   font-family: 'Dancing Script', cursive;
   color: #12486b;
   font-size: 60px;
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 116, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 137, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .card {
   display: flex;
   align-content: space-between;
   gap: 30px;
   border-radius: 30px;
-  border: none;
-}
+  border: none; }
 
-/* line 127, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 147, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .imagen {
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 131, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 151, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.card-img-top {
+  -webkit-animation: scale-up-center 4s cubic-bezier(0.39, 0.575, 0.565, 1) 2s both;
+  animation: scale-up-center 4s cubic-bezier(0.39, 0.575, 0.565, 1) 2s both; }
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+/* line 183, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .imagen img {
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 135, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 189, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .galeria {
   width: 100%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: .5rem;
-  row-gap: .5rem;
-}
+  row-gap: .5rem; }
 
 @media (min-width: 100px) {
-  /* line 146, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  /* line 200, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
   .galeria {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
+    grid-template-columns: repeat(1, 1fr); } }
 
 @media (min-width: 520px) {
-  /* line 152, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  /* line 206, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
   .galeria {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media (min-width: 720px) {
-  /* line 158, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  /* line 212, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
   .galeria {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media (min-width: 1024px) {
-  /* line 164, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  /* line 218, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
   .galeria {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+    grid-template-columns: repeat(4, 1fr); } }
 
-/* line 169, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 223, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .descripcion {
   margin-top: 55px;
   margin-bottom: 1rem;
-}
+  margin-left: 30px;
+  margin-right: 30px; }
 
-/* line 175, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 231, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .taste {
   border-style: solid;
   border-width: 3px;
@@ -189,10 +193,9 @@ body {
   border-radius: none;
   display: flex;
   flex-direction: row;
-  gap: 10px;
-}
+  gap: 10px; }
 
-/* line 188, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 246, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .Nutra {
   border-style: solid;
   border-width: 3px;
@@ -202,10 +205,9 @@ body {
   border-radius: none;
   display: flex;
   flex-direction: row;
-  gap: 10px;
-}
+  gap: 10px; }
 
-/* line 201, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 259, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .diamond {
   border-style: solid;
   border-width: 3px;
@@ -215,17 +217,15 @@ body {
   border-radius: none;
   display: flex;
   flex-direction: row;
-  gap: 10px;
-}
+  gap: 10px; }
 
-/* line 214, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 272, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .imgalimento {
   display: flex;
   max-width: 100%;
-  max-height: 100%;
-}
+  max-height: 100%; }
 
-/* line 220, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 278, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form {
   width: 100%;
   max-width: 1100px;
@@ -233,23 +233,20 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
-  margin-top: 90px;
-}
+  margin-top: 90px; }
 
-/* line 230, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 288, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form h2 {
   margin-bottom: 15px;
-  font-size: 35px;
-}
+  font-size: 35px; }
 
-/* line 235, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 293, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form p {
   font-size: 17px;
   line-height: 1.6;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
-/* line 242, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 300, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form a {
   font-size: 17px;
   display: inline-block;
@@ -257,16 +254,14 @@ body {
   width: 100%;
   margin-bottom: 15px;
   color: black;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
-/* line 252, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 310, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form a i {
   color: #419197;
-  margin-right: 10px;
-}
+  margin-right: 10px; }
 
-/* line 257, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 315, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form form .campo,
 textarea {
   width: 100%;
@@ -275,18 +270,16 @@ textarea {
   border: 1px solid #dbdbdb;
   margin-bottom: 20px;
   border-radius: 3px;
-  outline: 0px;
-}
+  outline: 0px; }
 
-/* line 268, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 326, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form form textarea {
   max-width: 530px;
   min-width: 530px;
   min-height: 140px;
-  max-height: 150px;
-}
+  max-height: 150px; }
 
-/* line 275, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 333, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form .btn-enviar {
   padding: 15px;
   font-size: 16px;
@@ -296,44 +289,72 @@ textarea {
   color: white;
   border-radius: 3px;
   cursor: pointer;
-  transition: all 300ms ease;
-}
+  transition: all 300ms ease; }
 
-/* line 288, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
-.img-fluid {
-  animation: scale-up-hor-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
+/* line 347, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.alimento-img {
+  -webkit-animation: flip-2-ver-right-bck 0.7s cubic-bezier(0.455, 0.03, 0.515, 0.955) 1s reverse;
+  animation: flip-2-ver-right-bck 0.7s cubic-bezier(0.455, 0.03, 0.515, 0.955) 1s reverse; }
 
-@keyframes scale-up-hor-center {
+@-webkit-keyframes flip-2-ver-right-bck {
   0% {
-    transform: scaleX(0.4);
-  }
+    -webkit-transform: translateX(0) translateZ(0) rotateY(0);
+    transform: translateX(0) translateZ(0) rotateY(0);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%; }
   100% {
-    transform: scaleX(1);
-  }
-}
+    -webkit-transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+    transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%; } }
 
-/* line 304, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
-.alimento-img:hover {
-  animation: scale-up-hor-center 4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-
-@keyframes scale-up-hor-center {
+@keyframes flip-2-ver-right-bck {
   0% {
-    transform: scaleX(0.4);
-  }
+    -webkit-transform: translateX(0) translateZ(0) rotateY(0);
+    transform: translateX(0) translateZ(0) rotateY(0);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%; }
   100% {
-    transform: scaleX(1);
-  }
-}
+    -webkit-transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+    transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%; } }
 
-/* line 319, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 386, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 footer {
   margin-top: 10px;
   margin-bottom: 10px;
-  justify-content: center;
+  justify-content: space-between;
   vertical-align: baseline;
-  margin-left: 40px;
-}
+  margin-left: 40px; }
+
+/* line 394, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.tarjetas {
+  background: #020024;
+  background: radial-gradient(circle, #020024 0%, #090979 35%, #00d4ff 100%); }
+  /* line 398, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  .tarjetas .shadow-drop-2-lr {
+    -webkit-animation: shadow-drop-2-lr 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: shadow-drop-2-lr 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+@media (min-width: 100px) {
+  /* line 406, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  .productos {
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media (min-width: 520px) {
+  /* line 412, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  .productos {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (min-width: 720px) {
+  /* line 418, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  .productos {
+    grid-template-columns: repeat(3, 1fr); } }
+
+@media (min-width: 1024px) {
+  /* line 424, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  .productos {
+    grid-template-columns: repeat(4, 1fr); } }
 
 /*# sourceMappingURL=estilos.css.map */
