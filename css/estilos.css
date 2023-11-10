@@ -191,7 +191,8 @@ body {
 .productos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  gap: 10px; }
 
 /* line 240, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .descripcion {
@@ -237,12 +238,26 @@ body {
   gap: 10px; }
 
 /* line 287, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
-.imgalimento {
+.alimento-img {
   display: flex;
   max-width: 100%;
-  max-height: 100%; }
+  max-height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding-left: 0px; }
 
-/* line 293, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 307, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form {
   width: 100%;
   max-width: 1100px;
@@ -253,21 +268,21 @@ body {
   margin-top: 50px; }
 
 @media (min-width: 100px) {
-  /* line 305, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  /* line 319, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
   .container-form {
     grid-template-columns: repeat(1, 1fr); } }
 
 @media (min-width: 520px) {
-  /* line 311, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  /* line 325, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
   .container-form {
     grid-template-columns: repeat(2, 1fr); } }
 
-/* line 318, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 332, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form h2 {
   margin-bottom: 15px;
   font-size: 35px; }
 
-/* line 323, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 337, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form p {
   font-size: 17px;
   line-height: 1.6;
@@ -275,7 +290,7 @@ body {
   margin-left: 30px;
   margin-right: 30px; }
 
-/* line 332, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 346, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form a {
   font-size: 17px;
   display: inline-block;
@@ -286,12 +301,12 @@ body {
   font-weight: 700;
   margin-left: 30px; }
 
-/* line 343, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 357, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form a i {
   color: #419197;
   margin-right: 10px; }
 
-/* line 348, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 362, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form form .campo,
 textarea {
   width: 100%;
@@ -303,14 +318,14 @@ textarea {
   outline: 0px;
   margin-top: 10px; }
 
-/* line 360, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 374, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form form textarea {
   max-width: 530px;
   min-width: 530px;
   min-height: 140px;
   max-height: 150px; }
 
-/* line 367, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 381, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .container-form .btn-enviar {
   padding: 15px;
   font-size: 16px;
@@ -322,7 +337,11 @@ textarea {
   cursor: pointer;
   transition: all 300ms ease; }
 
-/* line 381, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 393, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+.casillas {
+  overflow: hidden; }
+
+/* line 397, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .alimento-img {
   -webkit-animation: flip-2-ver-right-bck 0.7s cubic-bezier(0.455, 0.03, 0.515, 0.955) 1s reverse;
   animation: flip-2-ver-right-bck 0.7s cubic-bezier(0.455, 0.03, 0.515, 0.955) 1s reverse; }
@@ -351,7 +370,7 @@ textarea {
     -webkit-transform-origin: 0% 50%;
     transform-origin: 0% 50%; } }
 
-/* line 420, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 436, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 footer {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -359,32 +378,32 @@ footer {
   vertical-align: baseline;
   margin-left: 40px; }
 
-/* line 428, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+/* line 444, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
 .tarjetas {
   background: #020024;
   background: radial-gradient(circle, #020024 0%, #090979 35%, #00d4ff 100%); }
-  /* line 432, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  /* line 448, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
   .tarjetas .shadow-drop-2-lr {
     -webkit-animation: shadow-drop-2-lr 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     animation: shadow-drop-2-lr 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
-@media (min-width: 100px) {
-  /* line 440, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+@media (min-width: 375px) {
+  /* line 456, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
   .productos {
     grid-template-columns: repeat(1, 1fr); } }
 
 @media (min-width: 520px) {
-  /* line 446, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  /* line 462, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
   .productos {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media (min-width: 720px) {
-  /* line 452, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  /* line 468, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
   .productos {
     grid-template-columns: repeat(3, 1fr); } }
 
 @media (min-width: 1024px) {
-  /* line 458, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
+  /* line 474, ../../../Desktop/proyecto jaramillo pets nuevo/sass/estilos.scss */
   .productos {
     grid-template-columns: repeat(4, 1fr); } }
 
